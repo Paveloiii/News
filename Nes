@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Срочная новость – Учебный Коллапс</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 60%;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        .date {
+            color: gray;
+            font-size: 14px;
+        }
+        .news-text {
+            margin-top: 20px;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        .buttons {
+            margin-top: 30px;
+        }
+        button {
+            padding: 10px 15px;
+            margin-right: 10px;
+            border: none;
+            background: #007bff;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>⚡ Срочная новость: Учебный коллапс в 2207 ЮПК!</h1>
+    <p class="date">1 апреля 2025 г.</p>
+    <p class="news-text">
+        Сегодня в Новомосковске произошло нечто немыслимое. Куратор группы 2207 ЮПК, по неизвестным причинам, 
+        решила провести контрольную работу на четвёртой паре. По словам студентов, такого поворота событий никто не ожидал. 
+        Некоторые учащиеся в панике покинули здание колледжа, другие начали срочно повторять материал. 
+        Официальные лица пока не комментируют ситуацию.
+    </p>
+    
+    <div class="buttons">
+        <button onclick="alert('Ошибка 404: учебники не найдены!')">Подробнее</button>
+        <button onclick="alert('Комментарии отключены из-за массовой истерики студентов.')">Оставить комментарий</button>
+    </div>
+</div>
+
+</body>
+</html>
